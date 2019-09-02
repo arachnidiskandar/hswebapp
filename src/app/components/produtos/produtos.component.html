@@ -1,3 +1,19 @@
 <div>
-  <app-produto *ngFor="let produto of listaProdutos"></app-produto>
+    <div *ngFor="let produto of listaProdutos">
+      <div class="col-md-4">
+        <figure class="card card-product">
+          <div class="img-wrap"><img src="https://s9.postimg.org/tupxkvfj3/image.jpg"></div>
+          <figcaption class="info-wrap">
+            <h4 class="title">{{ produto.nome }}</h4>
+            <p class="desc">{{ produto.descricao }}</p>
+          </figcaption>
+          <div class="bottom-wrap">
+            <a href="" class="btn btn-sm btn-primary float-right">Ir para o site</a>
+            <div class="price-wrap h5">
+              <span class="price-new">{{ produto.preco }}</span> <del class="price-old">$1980</del>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- bottom-wrap.// -->
+        </figure>
+      </div> <!-- col // -->
+    </div>
 </div>
