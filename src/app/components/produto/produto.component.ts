@@ -10,6 +10,7 @@ export class ProdutoComponent implements OnInit {
   descricacao: string;
   preco: number;
   categorias: string[];
+
   constructor() { }
 
   ngOnInit() {
