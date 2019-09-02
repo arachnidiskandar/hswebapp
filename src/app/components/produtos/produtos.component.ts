@@ -8,11 +8,12 @@ import { PRODUTOS } from '../../mock-produtos';
 })
 export class ProdutosComponent implements OnInit {
   listaProdutos = PRODUTOS;
+  qntdProdutosPagina: number;
 
   constructor() { }
 
   ngOnInit() {
-
+    this.qntdProdutosPagina = this.listaProdutos.length;
   }
 
 }
