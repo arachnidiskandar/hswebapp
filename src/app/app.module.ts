@@ -1,3 +1,4 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -6,11 +7,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProdutoComponent } from './components/produto/produto.component';
 import { ProdutosComponent } from './components/produtos/produtos.component';
-import { FilterPipe } from './pipes/filter.pipe';
+import { FilterPipe } from './pipes/filtrotexto/filter.pipe';
 import { KitupgradeComponent } from './components/categorias/kitupgrade/kitupgrade.component';
-import { FiltrarcategoriaPipe } from './components/categorias/pipes/filtrarcategoria.pipe';
-import { FiltrocategoriaPipe } from './pipes/filtrocategoria.pipe';
-
 
 @NgModule({
   declarations: [
@@ -20,8 +18,7 @@ import { FiltrocategoriaPipe } from './pipes/filtrocategoria.pipe';
     ProdutosComponent,
     FilterPipe,
     KitupgradeComponent,
-    FiltrarcategoriaPipe,
-    FiltrocategoriaPipe
+    FiltrarcategoriaPipe
   ],
   imports: [
     BrowserModule,
