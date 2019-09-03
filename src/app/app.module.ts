@@ -17,8 +17,7 @@ import { KitupgradeComponent } from './components/categorias/kitupgrade/kitupgra
     ProdutoComponent,
     ProdutosComponent,
     FilterPipe,
-    KitupgradeComponent,
-    FiltrarcategoriaPipe
+    KitupgradeComponent
   ],
   imports: [
     BrowserModule,
