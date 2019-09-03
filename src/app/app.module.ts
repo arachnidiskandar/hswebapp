@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProdutoComponent } from './components/produto/produto.component';
 import { ProdutosComponent } from './components/produtos/produtos.component';
-import { FilterPipe } from './filter.pipe';
+import { FilterPipe } from './pipes/filter.pipe';
+import { KitupgradeComponent } from './components/categorias/kitupgrade/kitupgrade.component';
+import { FiltrarcategoriaPipe } from './components/categorias/pipes/filtrarcategoria.pipe';
+import { FiltrocategoriaPipe } from './pipes/filtrocategoria.pipe';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { FilterPipe } from './filter.pipe';
     NavbarComponent,
     ProdutoComponent,
     ProdutosComponent,
-    FilterPipe
+    FilterPipe,
+    KitupgradeComponent,
+    FiltrarcategoriaPipe,
+    FiltrocategoriaPipe
   ],
   imports: [
     BrowserModule,
