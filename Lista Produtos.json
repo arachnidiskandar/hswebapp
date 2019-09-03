@@ -1,0 +1,282 @@
+{
+   "kits_upgrades":[
+      {
+         "nomeProduto":"Kit Upgrade Placa Mãe Asus TUF B450M-PRO GAMING, AMD AM4 + Processador AMD Ryzen 5 3600 3.6GHz + MEMÓRIA DDR4 KINGSTON HYPERX PREDATOR 8GB 3000MHz",
+         "preçoAntigo":"R$ 2.313,00",
+         "preçoNovo":"R$ 2.240,23",
+         "preçoVista":"R$ 1.949,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/kit-upgrade207-placa-mae-processador-amd-memoria-ddr4_79938.jpg",
+         "categoria":"Kit Upgrade"
+      },
+      {
+         "nomeProduto":"Kit Upgrade Placa Mãe Biostar Racing B350GT3, AMD AM4 + Processador AMD Ryzen 5 3600 3.6GHz + Memória DDR4 Kingston Hyperx Predator 8GB 3000MHz",
+         "preçoAntigo":"R$ 2.047,00",
+         "preçoNovo":"R$ 1.952,87",
+         "preçoVista":"R$ 1.699,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/kit-upgrade209-placa-mae-processador-amd-memoria-ddr4_79940.jpg",
+         "categoria":"Kit Upgrade"
+      }
+   ],
+   "pc_games":[
+      {
+         "nomeProduto":"Pc Gamer Ideal 2019 Amd Ryzen 5 3600 / Geforce GTX 1660 Ti / DDR4 8GB / HD 1TB / 500W",
+         "preçoAntigo":"R$ 4.290,09",
+         "preçoNovo":"R$ 4.136,78",
+         "preçoVista":"R$ 3.599,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-Ideal-2019-AMD-Ryzen-5-2600-Placa-de-Video-Nvidia-GeForce_78575.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-power Special Edition Intel I7 9700k / Gtx 1660 Ti 6gb / DDR4 8Gb / Hd 1tb / 600W",
+         "preçoAntigo":"R$ 5.992,00",
+         "preçoNovo":"R$ 5.734,48",
+         "preçoVista":"R$ 4.989,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Power-Special-Edition-9700k-Intel-Placa-de-Video-Gtx-1660-Ti-6gb-Memoria-HD-Fonte-Gabinete_80124.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-power Special Edition Lvl-1 Intel I7 9700k / Geforce RTX 2060 6GB / DDR4 8Gb / Hd 1tb / 600W",
+         "preçoAntigo":"R$ 6.462,00",
+         "preçoNovo":"R$ 6.309,20",
+         "preçoVista":"R$ 5.489,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Power-Special-Edition-LVL-01-9-gen-Intel-Placa-de-Video-Memoria-HD-Fonte-Gabinete_80215.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-power Special Edition Lvl-3 Intel I7 9700k / Geforce Rtx 2070 8gb / DDR4 8Gb / Hd 1tb / 600W",
+         "preçoAntigo":"R$ 6.822,00",
+         "preçoNovo":"R$ 6.768,97",
+         "preçoVista":"R$ 5.889,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Power-Special-Edition-LVL-03-9-gen-Intel-Placa-de-Video-Memoria-HD-Fonte-Gabinete_80225.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Power Edition Intel I7 8700k / Rtx 2070 8gb / DDR4 8Gb / Hd 1Tb / 600W",
+         "preçoAntigo":"R$ 7.229,21",
+         "preçoNovo":"R$ 6.998,85",
+         "preçoVista":"R$ 6.089,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Power-Inferno-LVL-4-Intel-Placa-de-Video-Memoria-HD-Fonte-Gabinete_80234.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Commander LVL-1 AMD Ryzen 5 2600 / GEFORCE GTX 1060 6GB / DDR4 8Gb / HD 1TB / 500W",
+         "preçoAntigo":"R$ 3.473,00",
+         "preçoNovo":"R$ 3.136,78",
+         "preçoVista":"R$ 2.729,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Commander-LVL-1-Processador-Placa-de-Video-Nvidia-GeForce_80137.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Commander LVL-2 AMD Ryzen 5 2600 / GEFORCE GTX 1660 6GB / DDR4 8GB / HD 1TB / 500W",
+         "preçoAntigo":"R$ 3.323,00",
+         "preçoNovo":"R$ 3.217,24",
+         "preçoVista":"R$ 2.799,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Commander-LVL-2-AMD-Ryzen-5-Placa-de-Video-Nvidia-GeForce_80138.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Commander LVL-3 Amd Ryzen 5 2600 / GEFORCE GTX 1660 Ti 6GB / DDR4 8Gb / HD 1TB / 500W",
+         "preçoAntigo":"R$ 3.699,00",
+         "preçoNovo":"R$ 3.585,06",
+         "preçoVista":"R$ 3.119,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Commander-LVL-03-AMD-Ryzen-5-Placa-de-Video-Nvidia-GeForce_80141.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Commander LVL-4 AMD Ryzen 5 2600 / GeForce RTX 2060 6GB / DDR4 8GB / HD 1TB / 600W",
+         "preçoAntigo":"R$ 4.799,00",
+         "preçoNovo":"R$ 4.113,79",
+         "preçoVista":"R$ 3.579,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Commander-Lvl-04-AMD-Ryzen-5-Placa-de-Video-Nvidia-GeForce_80143.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer Super Soldier Lvl-1 Intel Core I5 8400 / Geforce Gtx 1050 Ti 4GB / DDR4 8GB / HD 1TB / 500W",
+         "preçoAntigo":"R$ 3.556,90",
+         "preçoNovo":"R$ 3.389,66",
+         "preçoVista":"R$ 2.949,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-Super-Soldier-LVL-1-Intel-Core-I5-Placa-de-Video-Nvidia-GeForce_80204.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Commander Lvl-5 Amd Ryzen 5 2600 / RADEON RX 570 4GB / DDR4 8GB / HD 1TB / 500W",
+         "preçoAntigo":"R$ 2.873,00",
+         "preçoNovo":"R$ 2.757,47",
+         "preçoVista":"R$ 2.399,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Commander-LVL-05-AMD-Ryzen-5-Placa-de-Video-Radeon-RX_80145.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Commander LVL-6 AMD Ryzen 5 2600 / RADEON RX 580 8GB / DDR4 8GB / HD 1TB / 500W",
+         "preçoAntigo":"R$ 3.659,33",
+         "preçoNovo":"R$ 3.499,00",
+         "preçoVista":"R$ 3.044,13 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Commander-Lvl-6-AMD-Ryzen-5-Placa-de-Video-Radeon-Rx_80147.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer Super Soldier Lvl-3 Intel Core I5 8400 / Geforce GTX 1660 Ti 6GB / DDR4 8GB / HD 1TB / 500W",
+         "preçoAntigo":"R$ 4.213,00",
+         "preçoNovo":"R$ 4.010,34",
+         "preçoVista":"R$ 3.489,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-Super-Soldier-LVL-3-Intel-Core-I5-Placa-de-Video-Nvidia-GeForce_80206.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer Super Streamer Lvl-1 Amd Ryzen 5 2400G / Geforce GTX 1050 Ti 4GB / DDR4 8GB / HD 1TB / 500W",
+         "preçoAntigo":"R$ 3.049,00",
+         "preçoNovo":"R$ 2.872,41",
+         "preçoVista":"R$ 2.499,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-Super-Streamer-LVL-1-AMD-Ryzen-5-Placa-de-Video-Nvidia-GeForce_80203.jpg",
+         "categoria":"Pc Gamer"
+      },
+      {
+         "nomeProduto":"Pc Gamer T-Gamer Edition Intel Core I5 9400F / Rtx 2070 8GB / DDR4 8Gb / Hd 1tb / 600w",
+         "preçoAntigo":"R$ 6.123,90",
+         "preçoNovo":"R$ 4.975,86",
+         "preçoVista":"R$ 4.329,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Gamer-Edition-lvl-4-Intel-Core-I5-Placa-de-Video-Nvidia-GeForce_80209.jpg",
+         "categoria":"Pc Gamer"
+      }
+   ],
+   "gpus":[
+
+   ],
+   "fontes":[
+
+   ],
+   "placas mães":[
+      {
+         "nomeProduto":"Placa Mãe MSI H370 GAMING PLUS, Chipset H370, Intel LGA 1151, ATX, DDR4",
+         "preçoAntigo":"R$ 849,00",
+         "preçoNovo":"R$ 802,30",
+         "preçoVista":"R$ 698,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/placa-mae-msi-h370-gaming-plus-lga-1151-ddr4_52518.jpg",
+         "categoria":"Placa Mãe"
+      },
+      {
+         "nomeProduto":"Placa Mãe Biostar Racing B350GT3, Chipset B350, AMD AM4, mATX, DDR4",
+         "preçoAntigo":"R$ 519,00",
+         "preçoNovo":"R$ 424,14",
+         "preçoVista":"R$ 369,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/placa-mae-biostar-racing-b350gt3-ddr4-amd-am4_45937.jpg",
+         "categoria":"Placa Mãe"
+      },
+      {
+         "nomeProduto":"Placa Mãe Asus Prime X370-PRO, Chipset X370, AMD AM4, ATX, DDR4",
+         "preçoAntigo":"R$ 879,00",
+         "preçoNovo":"R$ 839,00",
+         "preçoVista":"R$ 729,93 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/placa-mae-asus-prime-x370-pro-rgb-ddr4-slicrossfire-am4_36784.png",
+         "categoria":"Placa Mãe"
+      }
+   ],
+   "teclados":[
+
+   ],
+   "memorias":[
+
+   ],
+   "mouses":[
+      {
+         "nomeProduto":"Mouse Gamer Redragon Centrophorus M601-3, 3200 DPI, 6 Botões, Led Red",
+         "preçoAntigo":"R$ 89,00",
+         "preçoNovo":"R$ 57,36",
+         "preçoVista":"R$ 49,90 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/mouse-redragon-gamer-centrophorus-m601-3-6-botoes-3200-dpi-led-vermelha_46915.PNG",
+         "categoria":"Mouse"
+      }
+   ],
+   "headsets":[
+      {
+         "nomeProduto":"Headset Gamer Corsair HS50 Stereo Carbon CA-9011170-NA",
+         "preçoAntigo":"R$ 249,00",
+         "preçoNovo":"R$ 215,98",
+         "preçoVista":"R$ 187,90 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/headset-gamer-corsair-hs50-stereo-carbon-ca-9011170-na_50206.jpg",
+         "categoria":"Headset"
+      }
+   ],
+   "coolers":[
+
+   ],
+   "watercoolers":[
+      {
+         "nomeProduto":"Water Cooler PCYES Nix, RGB 360mm, Intel-AMD, PWC360H40PTRGB",
+         "preçoAntigo":"R$ 649,00",
+         "preçoNovo":"R$ 631,03",
+         "preçoVista":"R$ 549,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/water-cooler-pcyes-nix-360mm-mangueiras-de-nylon-led-rgb-pwc360h40ptrgb_58076.jpg",
+         "categoria":"Water Cooler"
+      }
+   ],
+   "ssds":[
+
+   ],
+   "combos":[
+
+   ],
+   "processadores":[
+      {
+         "nomeProduto":"Processador AMD Ryzen 5 2600 3.4GHz (3.9GHz Turbo), 6-Core 12-Thread, Cooler Wraith Stealth, AM4, YD2600BBAFBOX, S/ Video",
+         "preçoAntigo":"R$ 918,39",
+         "preçoNovo":"R$ 803,45",
+         "preçoVista":"R$ 699,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/processador-amd-ryzen-5-2600-34ghz-39ghz-max-turbo-yd2600bbafbox-r2l-six-core-16mb-cooler-wraith-stealth-imp_53690.png",
+         "categoria":"Processador"
+      },
+      {
+         "nomeProduto":"Processador Intel Core i7 8700K 3.70GHz (4.7GHz Turbo), 8ª Geração, 6-Core 12-Thread, LGA 1151, BX80684I78700K",
+         "preçoAntigo":"R$ 2.389,00",
+         "preçoNovo":"R$ 2.263,22",
+         "preçoVista":"R$ 1.969,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/processador-intel-core-i7-8700k-37-ghz-12mb-bx80684i78700k-8-geracao-coffee-lake-lga-1151-serie-300_61067.png",
+         "categoria":"Processador"
+      }
+   ],
+   "hds":[
+
+   ],
+   "outros":[
+      {
+         "nomeProduto":"PC Gamer T-Power Special Intel I7 9700KF 3.60GHz / GeForce RTX 2060 6GB / 8GB DDR4 / HD 1TB / 600W",
+         "preçoAntigo":"R$ 6.472,00",
+         "preçoNovo":"R$ 6.182,76",
+         "preçoVista":"R$ 5.379,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Power-Special-Teralive-9-gen-Intel-Placa-de-Video-Nvidia-Geforce-Memoria-HD-Fonte-Gabinete_79190.jpg",
+         "categoria":"Outros"
+      },
+      {
+         "nomeProduto":"PC Gamer T-Power Super Edition Intel I7 8700K / Geforce GTX 1660 Ti 6GB / DDR4 8GB / HD 1TB / 600W",
+         "preçoAntigo":"R$ 5.589,21",
+         "preçoNovo":"R$ 5.401,15",
+         "preçoVista":"R$ 4.699,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Power-Super-General-LVL-3-8-gen-Intel-Placa-de-Video-Memoria-HD-Fonte-Gabinete_80221.jpg",
+         "categoria":"Outros"
+      },
+      {
+         "nomeProduto":"PC Gamer T-Power Edition Intel I7 8700K / Geforce RTX 2060 6GB / DDR4 8GB / HD 1TB / 600W",
+         "preçoAntigo":"R$ 6.059,21",
+         "preçoNovo":"R$ 5.860,92",
+         "preçoVista":"R$ 5.099,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/PC-Gamer-T-Power-Super-General-LVL-5-8-gen-Intel-Placa-de-Video-Memoria-HD-Fonte-Gabinete_80222.jpg",
+         "categoria":"Outros"
+      },
+      {
+         "nomeProduto":"Cadeira Gamer Mymax MX12, Black-Green",
+         "preçoAntigo":"R$ 1.339,00",
+         "preçoNovo":"R$ 999,00",
+         "preçoVista":"R$ 869,13 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/cadeira-gamer-mymax-mx12-black-green_71939.jpg",
+         "categoria":"Outros"
+      },
+      {
+         "nomeProduto":"Gabinete Gamer NZXT H500, Mid Tower, Com 2 Fans, Vidro Temperado, Black, S-Fonte, CA-H500B-B1",
+         "preçoAntigo":"R$ 489,00",
+         "preçoNovo":"R$ 435,63",
+         "preçoVista":"R$ 379,00 ",
+         "linkImg":"https://img.terabyteshop.com.br/produto/m/gabinete-nzxt-h500-ca-h500b-b1-vidro-temperado-mid-tower-preto-sfonte_53920.png",
+         "categoria":"Outros"
+      }
+   ]
+}
