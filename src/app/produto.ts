@@ -1,7 +1,9 @@
 export class Produto {
-  nome: string;
-  descricao: string;
-  preco: number;
-  categorias: string[];
+  nomeProduto: string;
+  precoAntigo: string;
+  precoNovo: string;
+  precoVista: string;
+  linkImg: string;
+  categoria: string;
 
 }

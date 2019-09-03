@@ -1,17 +1,21 @@
 <div class="container-fluid">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Pesquise um produto:</label>
+    <input [(ngModel)]="textoDigitado" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Pesquise um produto...">
+  </div>
   <div class="row">
-    <div class="col-lg-4" *ngFor="let produto of listaProdutos">
+    <div class="col-lg-4" *ngFor="let produto of listaProdutos | filter:textoDigitado">
       <figure class="card card-product">
-          <div class=" img-wrap"><img src="https://s9.postimg.org/tupxkvfj3/image.jpg">
+          <div class=" img-wrap"><img src="{{ produto.linkImg }}">
           </div>
           <figcaption class="info-wrap">
-            <h4 class="title">{{ produto.nome }}</h4>
-            <p class="desc">{{ produto.descricao }}</p>
+            <h5 class="title">{{ produto.nomeProduto }}</h5>
+            <p class="desc">desc</p>
           </figcaption>
           <div class="bottom-wrap">
             <a href="" class="btn btn-sm btn-primary float-right">Ir para o site</a>
             <div class="price-wrap h5">
-              <span class="price-new">{{ produto.preco }}</span> <del class="price-old">$1980</del>
+              <span class="price-new">{{ produto.precoNovo }}</span> <del class="price-old">{{ produto.precoAntigo }}</del>
             </div> <!-- price-wrap.// -->
           </div> <!-- bottom-wrap.// -->
       </figure>
