@@ -7,3 +7,10 @@ margin-top: 1vw;
 #botaoLimpar {
   margin-top: 32px;
 }
+.irSite {
+  float: right;
+  margin: 1vw;
+}
+.price-old{
+  color: red;
+}
