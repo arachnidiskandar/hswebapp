@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class FilterPipe implements PipeTransform {
 
   transform(items: any[], textoDigitado: string, opcao: string): any {
-    if (!items || !textoDigitado && !opcao) {
+    if (!items || !textoDigitado && !opcao) {//se tiver tudo vazio
       return items;
     }
     else {
