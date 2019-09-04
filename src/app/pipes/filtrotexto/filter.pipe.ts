@@ -10,9 +10,7 @@ export class FilterPipe implements PipeTransform {
     if (!items || !textoDigitado) {
       return items;
   }
-  textoDigitado = textoDigitado.toLowerCase();
-  // filter items array, items which match and return true will be
-  // kept, false will be filtered out
-  return items.filter(item => item.nomeProduto.indexOf(textoDigitado) !== -1);
+  // filtra os produtos pelo oq o cara digitou
+  return items.filter(item => item.nomeProduto.toLowerCase().indexOf(textoDigitado.toLowerCase()) !== -1);
   }
 }

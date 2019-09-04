@@ -1,24 +1,36 @@
 <div class="container-fluid">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Pesquise um produto:</label>
-    <input [(ngModel)]="textoDigitado" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Pesquise um produto...">
-  </div>
+  <div class="row">
+    <div class="form-group col-9">
+      <label for="exampleInputEmail1">Pesquise um produto:</label>
+      <input [(ngModel)]="textoDigitado" type="email" class="form-control" id="exampleInputEmail1"
+        aria-describedby="emailHelp" placeholder="Pesquise um produto...">
+    </div>
+    <div class="form-group col-3">
+      <label for="CategoriasProdutos">Selecione uma categoria:</label>
+      <select [(ngModel)]=categoriaSelecionada class="form-control" id="categoriaProdutos">
+        <option>Kit Upgrade</option>
+        <option>GPUs</option>
+        <option>PC Gamers</option>
+      </select>
+    </div>
+  </div> <!-- fim row -->
   <div class="row">
     <div class="col-lg-4" *ngFor="let produto of listaProdutos | filter:textoDigitado">
       <figure class="card card-product">
-          <div class=" img-wrap"><img src="{{ produto.linkImg }}">
-          </div>
-          <figcaption class="info-wrap">
-            <h5 class="title">{{ produto.nomeProduto }}</h5>
-            <p class="desc">desc</p>
-          </figcaption>
-          <div class="bottom-wrap">
-            <a href="" class="btn btn-sm btn-primary float-right">Ir para o site</a>
-            <div class="price-wrap h5">
-              <span class="price-new">{{ produto.precoNovo }}</span> <del class="price-old">{{ produto.precoAntigo }}</del>
-            </div> <!-- price-wrap.// -->
-          </div> <!-- bottom-wrap.// -->
+        <div class=" img-wrap"><img src="{{ produto.linkImg }}">
+        </div>
+        <figcaption class="info-wrap">
+          <h5 class="title">{{ produto.nomeProduto }}</h5>
+          <p class="desc">desc</p>
+        </figcaption>
+        <div class="bottom-wrap">
+          <a href="" class="btn btn-sm btn-primary float-right">Ir para o site</a>
+          <div class="price-wrap h5">
+            <span class="price-new">{{ produto.precoNovo }}</span> <del
+              class="price-old">{{ produto.precoAntigo }}</del>
+          </div> <!-- price-wrap.// -->
+        </div> <!-- bottom-wrap.// -->
       </figure>
-  </div> <!-- col // -->
-</div>
+    </div> <!-- col // -->
+
 </div><!-- DIV 12 -->
