@@ -8,7 +8,9 @@ import { PRODUTOS } from '../../mock-produtos';
 })
 export class ProdutosComponent implements OnInit {
   listaProdutos = PRODUTOS;
-  textoDigitado: string;
+  textoDigitado: string
+  countProdutos = 0;
+  categoriaSelecionada;
   constructor() { }
 
   ngOnInit() {

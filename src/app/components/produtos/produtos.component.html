@@ -15,7 +15,7 @@
     </div>
   </div> <!-- fim row -->
   <div class="row">
-    <div class="col-lg-4" *ngFor="let produto of listaProdutos | filter:textoDigitado">
+    <div class="col-lg-4" *ngFor="let produto of listaProdutos | filter: textoDigitado:categoriaSelecionada">
       <figure class="card card-product">
         <div class=" img-wrap"><img src="{{ produto.linkImg }}">
         </div>
