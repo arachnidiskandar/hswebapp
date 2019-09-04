@@ -9,11 +9,13 @@ import { PRODUTOS } from '../../mock-produtos';
 export class ProdutosComponent implements OnInit {
   listaProdutos = PRODUTOS;
   textoDigitado: string
-  countProdutos = 0;
-  categoriaSelecionada;
+  categoriaSelecionada: string;
   constructor() { }
 
   ngOnInit() {
   }
-
+  limparFiltros() {
+    this.categoriaSelecionada = '';
+    this.textoDigitado = '';
+  }
 }
