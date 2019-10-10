@@ -1,11 +1,10 @@
+import time
+from datetime import datetime
 from bs4 import BeautifulSoup
-import json
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-import time
-import requests
-
-
+from selenium.webdriver.chrome.options import Options
+from firebase import firebase
 def criarProduto(tipo, preçoAntigo, preçoNovo, preçoVista, srcImg, nomeProduto):
   produto = {
     'nomeProduto': nomeProduto,
@@ -19,14 +18,27 @@ def criarProduto(tipo, preçoAntigo, preçoNovo, preçoVista, srcImg, nomeProdut
 
 
 if __name__ == '__main__':
-  browser = webdriver.Chrome("C:\\Projetos\\hswebapp\\chromedriver.exe")
-  browser.set_window_position(-2000, 0)
+  options = Options()
+  options.headless = True
+  browser = webdriver.Chrome("C:\\Projetos\\hswebapp\\chromedriver.exe", options=options)
   browser.get("https://www.terabyteshop.com.br/promocoes")
+  config = {
+    "apiKey": "AIzaSyCySoEZDSBpVGXpWM55dCZjJ3tSlw2vl5M",
+    "authDomain": "hswebapp-33c2a.firebaseapp.com",
+    "databaseURL": "https://hswebapp-33c2a.firebaseio.com",
+    "projectId": "hswebapp-33c2a",
+    "storageBucket": "hswebapp-33c2a.appspot.com",
+    "messagingSenderId": "459313121026",
+    "appId": "1:459313121026:web:f2071d2fe799d93434641b",
+    "measurementId": "G-GPR1BEPY32"
+  }
+
   while True:
     try:
       time.sleep(3)
       botao_mais_produtos = browser.find_element_by_id("pdmore")
       botao_mais_produtos.click()
+
     except NoSuchElementException:
       break
   html = browser.page_source
@@ -52,8 +64,7 @@ if __name__ == '__main__':
   fontes = []
   outros = []
   for href in links_produtos:
-    browser = webdriver.Chrome("C:\\Projetos\\hswebapp\\chromedriver.exe")
-    browser.set_window_position(-2000,0)
+    browser = webdriver.Chrome("C:\\Projetos\\hswebapp\\chromedriver.exe", options=options)
     link_produto = "https://www.terabyteshop.com.br" + href
     browser.get(link_produto)
     soup = BeautifulSoup(browser.page_source, 'lxml')
@@ -112,6 +123,7 @@ if __name__ == '__main__':
   else:
     print("Not found")
   listaProdutos = {
+    "diaPromoções": datetime.today().strftime('%Y-%m-%d'),
     "kits_upgrades": kits_upgrades,
     "pc_games": pc_gamers,
     "gpus": gpus,
@@ -129,6 +141,6 @@ if __name__ == '__main__':
     "hds": hds,
     "outros": outros
   }
-  print(listaProdutos)
-  #with open('listaProdutos.json', 'w') as outfile:
-   # json.dump(listaProdutos, outfile)
+  firebase = firebase.FirebaseApplication('https://hswebapp-33c2a.firebaseio.com/', None)
+  firebase.post('/users', data={"whatever":"data"})
+
