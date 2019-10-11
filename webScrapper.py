@@ -36,9 +36,8 @@ if __name__ == '__main__':
   while True:
     try:
       time.sleep(3)
-      botao_mais_produtos = browser.find_element_by_id("pdmore")
-      botao_mais_produtos.click()
-
+      element = browser.find_element_by_id("pdmore")
+      browser.execute_script("arguments[0].click();", element)
     except NoSuchElementException:
       break
   html = browser.page_source
@@ -142,5 +141,5 @@ if __name__ == '__main__':
     "outros": outros
   }
   firebase = firebase.FirebaseApplication('https://hswebapp-33c2a.firebaseio.com/', None)
-  firebase.post('/users', data={"whatever":"data"})
+  firebase.post('/users', data={"produtos": listaProdutos})
 

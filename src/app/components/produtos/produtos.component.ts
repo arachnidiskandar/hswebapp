@@ -1,4 +1,3 @@
-import { ProdutoComponent } from './../produto/produto.component';
 import { Component, OnInit } from '@angular/core';
 import { PRODUTOS } from '../../mock-produtos';
 @Component({
